@@ -504,6 +504,7 @@ h6 {
 }
 
 #banner h1 {
+  font-weight: 600;
   margin: 0 0 10px 0;
   font-size: 64px;
   font-family: "Satisfy", serif;
