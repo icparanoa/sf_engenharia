@@ -731,6 +731,41 @@ section {
 /*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
+.services .card-container {
+  perspective: 1000px;
+}
+
+.services .card-flip {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.services .card-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+
+.services .card {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.services .front {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.services .back {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  transform: rotateY(180deg);
+}
+
+
 .services .icon-box {
   padding: 30px;
   position: relative;
