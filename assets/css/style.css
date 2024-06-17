@@ -625,6 +625,7 @@ section {
   text-transform: uppercase;
   color: #231F20;
   font-family: Waffle;
+  padding-bottom: 20px;
 }
 
 .section-title h2::after {
