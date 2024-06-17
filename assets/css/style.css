@@ -848,12 +848,12 @@ section {
 
 .services .flip-container {
   border: 1px solid #14264f;
+  box-shadow: 11px 5px 25px 0px rgba(0, 0, 0, 0.75);
   position: relative;
   overflow: hidden;
   width: 360px;
   height: 260px;
   background: #fff;
-  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   border-radius: 13px;
 }
 
