@@ -76,35 +76,6 @@ h6 {
 
 
 
-.services .flip-container {
-  width: 300px;
-  height: 200px;
-  perspective: 1000px;
-}
-
-.services .flipper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.services .flip-container:hover .flipper {
-  transform: rotateY(180deg);
-}
-
-.services .front, .back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.services .back {
-  transform: rotateY(180deg);
-}
-
 
 
 /*--------------------------------------------------------------
@@ -534,7 +505,7 @@ h6 {
 }
 
 .info-box .img-fluid {
-  box-shadow: 11px 5px 25px 0px rgba(0,0,0,0.75);
+  box-shadow: 11px 5px 25px 0px rgba(0, 0, 0, 0.75);
   border-radius: 15px;
   background-repeat: no-repeat;
 }
@@ -648,7 +619,7 @@ section {
   overflow: hidden;
 }
 
-.section-  {
+.section- {
   padding-bottom: 40px;
 }
 
@@ -766,41 +737,6 @@ section {
 /*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
-.services .card-container {
-  perspective: 1000px;
-}
-
-.services .card-flip {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.6s;
-}
-
-.services .card-container:hover .card-flip {
-  transform: rotateY(180deg);
-}
-
-.services .card {
-  width: 100%;
-  height: 200px;
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.services .front {
-  background-color: #fff;
-  border: 1px solid #ccc;
-}
-
-.services .back {
-  background-color: #f8f9fa;
-  border: 1px solid #ccc;
-  transform: rotateY(180deg);
-}
-
-
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -881,6 +817,65 @@ section {
 .services .icon-box:hover .icon i {
   color: #1bbca3;
 }
+
+/*--------------------------------------------------------------
+# Srveces Giratório
+--------------------------------------------------------------*/
+.services .about-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #F6F6F6;
+  background: #14264f;
+}
+
+.services .about-btn:hover {
+  border: 1px solid #14264f;
+  background: #F6F6F6;
+  color: #14264f;
+}
+
+.services .flip-container {
+  position: relative;
+  width: 360px;
+  height: 260px;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  border-radius: 13px;
+}
+
+.services .flipper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.services .flip-container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+
+.services .front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.services .back {
+  transform: rotateY(180deg);
+}
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -1028,7 +1023,7 @@ section {
   margin-top: 70px;
   background: #f7f8f9;
   min-height: 40px;
-  
+
 }
 
 .breadcrumbs h2 {
