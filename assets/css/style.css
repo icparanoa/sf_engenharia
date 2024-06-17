@@ -659,7 +659,7 @@ section {
   padding-top: 80px;
 }
 
-.about img{
+.about img {
   max-width: 85%;
 }
 
@@ -885,6 +885,13 @@ section {
   height: 100%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+}
+
+.services .flipper .front img {
+  margin: 8px auto 8px auto;
+  width: 130px;
+  height: 130px;
+  transition: all 0.3s ease-in-out;
 }
 
 .services .flip-container:hover .flipper {
