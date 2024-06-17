@@ -793,9 +793,9 @@ section {
 }
 
 .services .title {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .services .title a {
@@ -847,6 +847,7 @@ section {
 }
 
 .services .flip-container {
+  border: 1px solid #14264f;
   position: relative;
   overflow: hidden;
   width: 360px;
