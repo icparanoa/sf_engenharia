@@ -127,7 +127,7 @@ h6 {
   padding: 5px 15px 7px 15px;
   margin-left: 5px;
   font-size: 14px;
-  color: #231f20;
+  color: #9c7067;
   white-space: nowrap;
   transition: 0.3s;
   border-radius: 50px;
@@ -915,7 +915,7 @@ section {
 .contact .container{
   border: 1px solid #14264f;
   padding: 12px 12px 12px 12px;
-  box-shadow: 11px 5px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 15px 58px 0px rgba(0,0,0,0.75);
   border-radius: 20px;
 }
 
