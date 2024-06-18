@@ -40,7 +40,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ef6603;
+  background: #063E89;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -54,7 +54,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #fc7c1f;
+  background: #0757be;
   color: #fff;
 }
 
@@ -803,6 +803,7 @@ section {
   line-height: 28px;
   margin-bottom: 0;
   padding: 5px 10px 10px 5px;
+  font-weight: 600;
 }
 
 .services .icon-box:hover .title a,
@@ -908,26 +909,31 @@ section {
   transform: rotateY(180deg);
 }
 
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact .container{
+  border: 1px solid #14264f;
+  padding: 12px 12px 12px 12px;
+  box-shadow: 11px 5px 25px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #ef6603;
+  background: #14264f;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #ffecde;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 4px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -936,14 +942,23 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #2a2c39;
+  color: #14264f;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #555974;
+  color: #000;
+}
+
+.contact .info a {
+  color: #000;
+}
+
+.contact .info a:hover {
+  color: #D3A134;
 }
 
 .contact .info .email,
@@ -951,80 +966,8 @@ section {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
-  background: #ef6603;
-  color: #fff;
-}
-
-.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #ef6603;
+.contact button {
+  background: #14264f;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1032,8 +975,10 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
-  background: #fc8129;
+.contact button:hover {
+  background: #07d800;
+  border-color: #07d800;
+  color: #fff;
 }
 
 @keyframes animate-loading {
@@ -1143,31 +1088,24 @@ section {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #ef6603;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .social-links a:hover {
-  background: #bd5102;
-  color: #fff;
-  text-decoration: none;
-}
-
 #footer .copyright {
   margin: 0 0 5px 0;
 }
 
 #footer .credits {
   font-size: 13px;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
+
+#footer .credits a {
+  font-weight: 700;
+  color: #fff;
+}
+
+#footer .credits a:hover {
+  font-weight: 700;
+  color: #8f4949;
 }
